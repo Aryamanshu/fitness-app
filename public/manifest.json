@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Power Fitness",
+  "name": "Power Fitness - Your Ultimate Workout Companion",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#4facfe",
+  "background_color": "#2b5876",
+  "description": "A comprehensive fitness app with over 1300 exercises to help you achieve your fitness goals",
+  "orientation": "portrait",
+  "categories": ["fitness", "health", "lifestyle"]
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple geometric shapes for a modern look -->
+  <circle cx="300" cy="250" r="200" fill="url(#gradient1)" opacity="0.05"/>
+  
+  <!-- Stylized figure -->
+  <path d="M300 100 C280 100 265 115 265 135 C265 155 280 170 300 170 C320 170 335 155 335 135 C335 115 320 100 300 100 Z" fill="url(#gradient2)"/>
+  <path d="M350 180 L300 170 L250 180 L230 400 L270 400 L285 270 L300 400 L315 270 L330 400 L370 400 Z" fill="url(#gradient2)"/>
+  
+  <!-- Dumbbells -->
+  <rect x="180" y="230" width="30" height="15" rx="5" fill="url(#gradient1)"/>
+  <circle cx="170" cy="237" r="12" fill="url(#gradient1)"/>
+  <circle cx="220" cy="237" r="12" fill="url(#gradient1)"/>
+  
+  <rect x="390" y="230" width="30" height="15" rx="5" fill="url(#gradient1)"/>
+  <circle cx="380" cy="237" r="12" fill="url(#gradient1)"/>
+  <circle cx="430" cy="237" r="12" fill="url(#gradient1)"/>
+  
+  <!-- Abstract elements -->
+  <rect x="150" y="350" width="30" height="30" rx="5" stroke="url(#gradient1)" stroke-width="3" fill="none"/>
+  <rect x="420" y="350" width="30" height="30" rx="5" stroke="url(#gradient1)" stroke-width="3" fill="none"/>
+  
+  <path d="M165 365 L185 365 M175 355 L175 375" stroke="url(#gradient1)" stroke-width="3"/>
+  <path d="M435 365 L455 365 M445 355 L445 375" stroke="url(#gradient1)" stroke-width="3"/>
+</svg>

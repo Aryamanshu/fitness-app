@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a18cd1" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fbc2eb" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#4facfe" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="url(#gradient1)" opacity="0.05"/>
+  <circle cx="400" cy="300" r="200" fill="url(#gradient1)" opacity="0.05"/>
+  <circle cx="400" cy="300" r="150" fill="url(#gradient1)" opacity="0.05"/>
+  
+  <!-- Fitness Person Silhouette -->
+  <path d="M400 150 C380 150 365 165 365 185 C365 205 380 220 400 220 C420 220 435 205 435 185 C435 165 420 150 400 150 Z" fill="url(#gradient2)" filter="url(#shadow)"/>
+  <path d="M450 230 L400 220 L350 230 L330 450 L370 450 L385 320 L400 450 L415 320 L430 450 L470 450 Z" fill="url(#gradient2)" filter="url(#shadow)"/>
+  <path d="M330 260 L300 290 L330 320 L350 300 Z" fill="url(#gradient2)" filter="url(#shadow)"/>
+  <path d="M470 260 L500 290 L470 320 L450 300 Z" fill="url(#gradient2)" filter="url(#shadow)"/>
+  
+  <!-- Dumbbells -->
+  <rect x="240" y="280" width="40" height="20" rx="5" fill="url(#gradient3)" filter="url(#shadow)"/>
+  <circle cx="230" cy="290" r="15" fill="url(#gradient3)" filter="url(#shadow)"/>
+  <circle cx="290" cy="290" r="15" fill="url(#gradient3)" filter="url(#shadow)"/>
+  
+  <rect x="520" y="280" width="40" height="20" rx="5" fill="url(#gradient3)" filter="url(#shadow)"/>
+  <circle cx="510" cy="290" r="15" fill="url(#gradient3)" filter="url(#shadow)"/>
+  <circle cx="570" cy="290" r="15" fill="url(#gradient3)" filter="url(#shadow)"/>
+  
+  <!-- Fitness Elements -->
+  <circle cx="200" cy="150" r="30" stroke="url(#gradient1)" stroke-width="5" fill="none" filter="url(#shadow)"/>
+  <circle cx="600" cy="150" r="30" stroke="url(#gradient1)" stroke-width="5" fill="none" filter="url(#shadow)"/>
+  
+  <path d="M150 400 Q200 350 250 400 Q300 450 350 400 Q400 350 450 400 Q500 450 550 400 Q600 350 650 400" stroke="url(#gradient1)" stroke-width="5" fill="none" filter="url(#shadow)"/>
+  
+  <!-- Abstract Fitness Icons -->
+  <rect x="180" y="450" width="40" height="40" rx="5" stroke="url(#gradient1)" stroke-width="3" fill="none" filter="url(#shadow)"/>
+  <rect x="580" y="450" width="40" height="40" rx="5" stroke="url(#gradient1)" stroke-width="3" fill="none" filter="url(#shadow)"/>
+  
+  <path d="M200 470 L220 470 M210 460 L210 480" stroke="url(#gradient1)" stroke-width="3" filter="url(#shadow)"/>
+  <path d="M600 470 L620 470 M610 460 L610 480" stroke="url(#gradient1)" stroke-width="3" filter="url(#shadow)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="200" r="10" fill="#a18cd1" opacity="0.6" filter="url(#shadow)"/>
+  <circle cx="650" cy="200" r="10" fill="#a18cd1" opacity="0.6" filter="url(#shadow)"/>
+  <circle cx="200" cy="500" r="8" fill="#fbc2eb" opacity="0.6" filter="url(#shadow)"/>
+  <circle cx="600" cy="500" r="8" fill="#fbc2eb" opacity="0.6" filter="url(#shadow)"/>
+  
+  <!-- Additional Fitness Elements -->
+  <path d="M250 100 C270 80 290 120 310 100" stroke="url(#gradient1)" stroke-width="3" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M490 100 C510 80 530 120 550 100" stroke="url(#gradient1)" stroke-width="3" stroke-linecap="round" filter="url(#shadow)"/>
+  
+  <!-- Pulse Line -->
+  <path d="M100 350 L150 350 L170 320 L200 380 L230 300 L260 350 L300 350" stroke="url(#gradient1)" stroke-width="3" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M500 350 L550 350 L570 320 L600 380 L630 300 L660 350 L700 350" stroke="url(#gradient1)" stroke-width="3" stroke-linecap="round" filter="url(#shadow)"/>
+</svg>
