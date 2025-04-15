@@ -1,70 +1,132 @@
-# Getting Started with Create React App
+# Power Fitness - Modern Exercise Library App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Power Fitness Banner](https://github.com/Aryamanshu/fitness-app/raw/main/public/logo192.png)
 
-## Available Scripts
+## 🏋️‍♂️ Overview
 
-In the project directory, you can run:
+Power Fitness is a modern, responsive web application that provides users with access to a comprehensive library of over 1,300 exercises. The app features detailed instructions, animations, and YouTube video tutorials for each exercise, helping users achieve their fitness goals more efficiently.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Extensive Exercise Library**: Access to over 1,300 exercises with detailed information
+- **Body Part Filtering**: Browse exercises by specific body parts (chest, back, shoulders, etc.)
+- **Exercise Details**: View comprehensive information about each exercise including target muscles, equipment needed, and proper form
+- **Video Tutorials**: Watch YouTube video demonstrations for each exercise
+- **Embedded Video Player**: Watch exercise tutorials directly within the app
+- **Similar Exercises**: Discover related exercises that target the same muscle groups
+- **Responsive Design**: Optimized for all devices - desktop, tablet, and mobile
+- **Modern UI**: Clean, intuitive interface with smooth animations and transitions
+- **Contact Form**: Easy way for users to get in touch with questions or feedback
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **React**: Frontend library for building the user interface
+- **Material-UI**: Component library for consistent and responsive design
+- **Framer Motion**: Animation library for smooth transitions and effects
+- **RapidAPI**: Integration with ExerciseDB API for exercise data
+- **YouTube API**: For fetching relevant exercise videos
+- **CSS**: Custom styling with modern design principles
+- **Responsive Design**: Mobile-first approach for all screen sizes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📱 Screenshots
 
-### `npm run build`
+### Home Page
+![Home Page](https://via.placeholder.com/800x400?text=Power+Fitness+Home+Page)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Exercise Browser
+![Exercise Browser](https://via.placeholder.com/800x400?text=Exercise+Browser)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Exercise Detail Page
+![Exercise Detail](https://via.placeholder.com/800x400?text=Exercise+Detail+Page)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (v14.0.0 or later)
+- npm or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aryamanshu/fitness-app.git
+   cd fitness-app
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+3. Create a `.env` file in the root directory and add your API keys:
+   ```
+   REACT_APP_RAPID_API_KEY=your_rapidapi_key
+   SKIP_PREFLIGHT_CHECK=true
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-### Code Splitting
+## 🌐 API Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project uses the following APIs:
 
-### Analyzing the Bundle Size
+- **ExerciseDB API**: Provides comprehensive exercise data including instructions, target muscles, and equipment
+- **YouTube Search API**: Fetches relevant exercise tutorial videos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Both APIs are accessed through RapidAPI. You'll need to sign up for a RapidAPI account and subscribe to these APIs to get your API key.
 
-### Making a Progressive Web App
+## 📋 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+/src
+  /assets            # Images, icons, and other static assets
+  /components        # Reusable UI components
+  /pages             # Main application pages
+  /utils             # Utility functions and API calls
+  /hooks             # Custom React hooks
+  App.js             # Main application component
+  index.js           # Entry point
+```
 
-### Advanced Configuration
+## 🔧 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### `npm run build` fails to minify
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📞 Contact
+
+Aryamanshu - [GitHub](https://github.com/Aryamanshu)
+
+Project Link: [https://github.com/Aryamanshu/fitness-app](https://github.com/Aryamanshu/fitness-app)
+
+## 🙏 Acknowledgements
+
+- [ExerciseDB API](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/)
+- [Material-UI](https://mui.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React](https://reactjs.org/)
