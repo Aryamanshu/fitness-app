@@ -2,6 +2,10 @@
 
 ![Power Fitness Banner](https://github.com/Aryamanshu/fitness-app/raw/main/public/logo192.png)
 
+## 🔗 Live Demo
+
+**[View Live Demo: https://fitness-by-arya.netlify.app/](https://fitness-by-arya.netlify.app/)**
+
 ## 🏋️‍♂️ Overview
 
 Power Fitness is a modern, responsive web application that provides users with access to a comprehensive library of over 1,300 exercises. The app features detailed instructions, animations, and YouTube video tutorials for each exercise, helping users achieve their fitness goals more efficiently.
@@ -28,16 +32,6 @@ Power Fitness is a modern, responsive web application that provides users with a
 - **CSS**: Custom styling with modern design principles
 - **Responsive Design**: Mobile-first approach for all screen sizes
 
-## 📱 Screenshots
-
-### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Power+Fitness+Home+Page)
-
-### Exercise Browser
-![Exercise Browser](https://via.placeholder.com/800x400?text=Exercise+Browser)
-
-### Exercise Detail Page
-![Exercise Detail](https://via.placeholder.com/800x400?text=Exercise+Detail+Page)
 
 ## 🚀 Getting Started
 
@@ -122,7 +116,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Aryamanshu - [GitHub](https://github.com/Aryamanshu)
 
-Project Link: [https://github.com/Aryamanshu/fitness-app](https://github.com/Aryamanshu/fitness-app)
+Project Repository: [https://github.com/Aryamanshu/fitness-app](https://github.com/Aryamanshu/fitness-app)
+
+Live Demo: [https://fitness-by-arya.netlify.app/](https://fitness-by-arya.netlify.app/)
 
 ## 🙏 Acknowledgements
 
@@ -130,3 +126,4 @@ Project Link: [https://github.com/Aryamanshu/fitness-app](https://github.com/Ary
 - [Material-UI](https://mui.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [React](https://reactjs.org/)
+- [Netlify](https://www.netlify.com/) - For hosting the live demo
