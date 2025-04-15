@@ -15,8 +15,8 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
     );
   }
 
-  // Limit to 6 videos for better performance and UI
-  const displayedVideos = exerciseVideos.slice(0, 6);
+  // Limit to 3 videos for better performance and UI
+  const displayedVideos = exerciseVideos.slice(0, 3);
 
   return (
     <Box

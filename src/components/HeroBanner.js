@@ -34,7 +34,7 @@ const HeroBanner = () => {
           zIndex: 0
         }}
       />
-      
+
       {/* Animated light beams */}
       <Box
         sx={{
@@ -59,7 +59,7 @@ const HeroBanner = () => {
           }
         }}
       />
-      
+
       {/* Add keyframes for rotation */}
       <style>{`
         @keyframes rotate {
@@ -142,13 +142,13 @@ const HeroBanner = () => {
               </Typography>
 
               <Box sx={{ position: 'relative', mb: 5, mt: 2 }}>
-                <Divider sx={{ 
-                  borderColor: 'rgba(255, 255, 255, 0.1)', 
-                  width: '100%', 
+                <Divider sx={{
+                  borderColor: 'rgba(255, 255, 255, 0.1)',
+                  width: '100%',
                   maxWidth: '500px',
-                  my: 3 
+                  my: 3
                 }} />
-                
+
                 <Typography
                   variant="body1"
                   sx={{
@@ -163,14 +163,14 @@ const HeroBanner = () => {
                 >
                   Access our comprehensive library of over <strong>1,300 exercises</strong> with detailed instructions, animations, and personalized recommendations to help you achieve your fitness goals faster and more efficiently.
                 </Typography>
-                
+
                 <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 3 }}>
                   <Chip
                     icon={<FitnessCenterIcon sx={{ fontSize: '16px' }} />}
                     label="1300+ Exercises"
                     size="small"
-                    sx={{ 
-                      bgcolor: 'rgba(255, 255, 255, 0.1)', 
+                    sx={{
+                      bgcolor: 'rgba(255, 255, 255, 0.1)',
                       color: '#fff',
                       '& .MuiChip-icon': { color: '#4facfe' }
                     }}
@@ -179,8 +179,8 @@ const HeroBanner = () => {
                     icon={<SportsGymnasticsIcon sx={{ fontSize: '16px' }} />}
                     label="10+ Body Parts"
                     size="small"
-                    sx={{ 
-                      bgcolor: 'rgba(255, 255, 255, 0.1)', 
+                    sx={{
+                      bgcolor: 'rgba(255, 255, 255, 0.1)',
                       color: '#fff',
                       '& .MuiChip-icon': { color: '#4facfe' }
                     }}
@@ -189,8 +189,8 @@ const HeroBanner = () => {
                     icon={<DirectionsRunIcon sx={{ fontSize: '16px' }} />}
                     label="All Fitness Levels"
                     size="small"
-                    sx={{ 
-                      bgcolor: 'rgba(255, 255, 255, 0.1)', 
+                    sx={{
+                      bgcolor: 'rgba(255, 255, 255, 0.1)',
                       color: '#fff',
                       '& .MuiChip-icon': { color: '#4facfe' }
                     }}
@@ -242,43 +242,15 @@ const HeroBanner = () => {
                 >
                   Explore Exercises
                 </Button>
-                
-                <Button
-                  variant="outlined"
-                  onClick={() => {
-                    const bodyPartsSection = document.getElementById('bodyParts');
-                    if (bodyPartsSection) {
-                      bodyPartsSection.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}
-                  sx={{
-                    borderColor: 'rgba(79, 172, 254, 0.5)',
-                    borderWidth: '2px',
-                    borderRadius: '50px',
-                    padding: '14px 32px',
-                    fontSize: '16px',
-                    fontFamily: 'Montserrat',
-                    fontWeight: 700,
-                    color: '#fff',
-                    textTransform: 'uppercase',
-                    letterSpacing: '1px',
-                    '&:hover': {
-                      borderColor: '#4facfe',
-                      backgroundColor: 'rgba(79, 172, 254, 0.1)',
-                    },
-                  }}
-                >
-                  Body Parts
-                </Button>
               </Box>
 
               {/* Quick stats - now with animated counters */}
               <Box sx={{ display: 'flex', gap: 3, mt: 6, flexWrap: 'wrap' }}>
-                <Paper 
-                  elevation={0} 
-                  sx={{ 
-                    p: 3, 
-                    background: 'rgba(255, 255, 255, 0.05)', 
+                <Paper
+                  elevation={0}
+                  sx={{
+                    p: 3,
+                    background: 'rgba(255, 255, 255, 0.05)',
                     backdropFilter: 'blur(10px)',
                     borderRadius: '16px',
                     border: '1px solid rgba(255, 255, 255, 0.1)',
@@ -300,12 +272,12 @@ const HeroBanner = () => {
                   <Typography variant="h3" sx={{ color: '#4facfe', fontWeight: 800, mb: 0.5 }}>1300+</Typography>
                   <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 500 }}>Exercises</Typography>
                 </Paper>
-                
-                <Paper 
-                  elevation={0} 
-                  sx={{ 
-                    p: 3, 
-                    background: 'rgba(255, 255, 255, 0.05)', 
+
+                <Paper
+                  elevation={0}
+                  sx={{
+                    p: 3,
+                    background: 'rgba(255, 255, 255, 0.05)',
                     backdropFilter: 'blur(10px)',
                     borderRadius: '16px',
                     border: '1px solid rgba(255, 255, 255, 0.1)',
@@ -327,12 +299,12 @@ const HeroBanner = () => {
                   <Typography variant="h3" sx={{ color: '#4facfe', fontWeight: 800, mb: 0.5 }}>10+</Typography>
                   <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 500 }}>Categories</Typography>
                 </Paper>
-                
-                <Paper 
-                  elevation={0} 
-                  sx={{ 
-                    p: 3, 
-                    background: 'rgba(255, 255, 255, 0.05)', 
+
+                <Paper
+                  elevation={0}
+                  sx={{
+                    p: 3,
+                    background: 'rgba(255, 255, 255, 0.05)',
                     backdropFilter: 'blur(10px)',
                     borderRadius: '16px',
                     border: '1px solid rgba(255, 255, 255, 0.1)',
